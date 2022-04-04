@@ -12,7 +12,7 @@ function App() {
           <nav>
             <ul>
               <li>
-                <Link to="/home">Chris Márquez</Link>
+                <Link to="/">Chris Márquez</Link>
               </li>
               <li>
                 <Link to="/studies">UX Case Study 1</Link>
@@ -21,7 +21,7 @@ function App() {
           </nav>
           <Routes>
             <Route path="/studies" element={<Study />}></Route>
-            <Route path="/home" element={<Resume />}></Route>
+            <Route path="/" element={<Resume />}></Route>
           </Routes>
         </BrowserRouter>
       </div>
