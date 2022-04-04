@@ -1,0 +1,57 @@
+export const caseSecuritySettings = [
+  {
+    id: "1",
+    title: "Admin needs to update security settings",
+    metaData: "Kiteworks  |  Q2 – 2021  |  Palo Alto, California",
+    problemsObservedP1:
+      "Kiteworks admins are in charge of enabling the business processes and reducing the risks to the system and the data. Some settings could be misused, opening the content and / or system to vulnerabilities that could create serious problems for the customer organization, as well as the Kiteworks organization.",
+    problemsObservedP2:
+      "People working as Admins usually have little time to spare, so a focused experience automatically presented upon update or sign in, will allow affected admins to confirm the security settings that apply to their system.",
+    hypothesisP1:
+      "One of the top priorities of the administrators is to keep the system secure against bad actors and poor decision making.",
+    hypothesisP2:
+      "Admins are willing to rapidly take action on security related issues.",
+    hypothesisP3:
+      "Admins are capable of making this decision, either on the spot or later in the short term.",
+    stakeholderRequestP1:
+      "The Kiteworks security team identified a few settings that would like system admins to review and confirm the state of these settings to prevent risks.",
+    stakeholderRequestP2:
+      "Enabling admins to confirm the settings with high clarity and without much disruption.",
+    stakeholderRequestP3:
+      "Another goal was to push the admin to interact with the workflow with high urgency.",
+    solveProblemP1:
+      "First I spoke to the security team members to understand the kind of settings and the risks involved with each.",
+    solveProblemP2:
+      "I worked with the Product Manager on the team to identify the number of customers that had the security settings activated.",
+    solveProblemP3:
+      "Once I understood the risks and the scope of the problem, I set myself to prototype ideas for the interaction scenarios.",
+    solveProblemP4:
+      "Using the prototype I tested the user experience flows with team members from UX, PM, Engineering, and Support as well as real customer’ admins to validate the ideas and iterate the prototype.",
+    collaborationP1:
+      "As Product Designer, my goal is to gain enough insights into the problem to produce ideas that can be tested and improved toward solving the problem efficiently.",
+    collaborationP2:
+      "I partner with UX team members to brainstorm ideas to re-use content and patterns, and to develop the cohesive style, including voice.",
+    collaborationP3:
+      "I partner with Product Managers to better understand the impact of the problem in the organization as a whole, they also are great advocates for the customer and the end user.",
+    collaborationP4:
+      "I partner with Engineers to brainstorm ideas and the potential opportunities provided by technology, as well as to implement the UI design to the best quality.",
+    facilitationP1:
+      "Initially I had multiple interviews with stake-holders to gain insights, most cases during video calls 1-1. Once I produced the first prototype I started having review meetings with larger groups from different teams.",
+    facilitationP2:
+      "Once the UX design is mostly defined I do a kick-off meeting with the Engineering team that is going to work on the feature to present and answer questions about the project.",
+    teamImpactP1:
+      "The new component in the admin interface now allows the admin to use another entry point and interaction model to present urgent workflows to the admin upon either update or sign in.",
+    solvedP_1:
+      "More than 80% of customers engaged with the interaction and completed the workflow, this caused minimal impact in the customer support organization, which eventually converted the remaining customers.",
+    solvedP_2:
+      "Less customers out there with potential exposures, and for those remaining now there is a record of someone manually confirming the setting in case of a dispute.",
+    impactP1:
+      "Simplicity is the most compounded value that people will appreciate, even if they don’t know why or point exactly to an individual factor. The perfect use of form and function.",
+    impactP2:
+      "The teams will be more efficient, able to spend more time on other aspect of the product design process, such as researching on edge cases.",
+    lessonsP1:
+      "Components are the primary building block of modern user interfaces. They provide contained functionality, markup and style. Knowing how to leverage components enables superb UX all around.",
+    lessonsP2:
+      "The team was able to fully leverage the design tools with the components and style library.",
+  },
+];
