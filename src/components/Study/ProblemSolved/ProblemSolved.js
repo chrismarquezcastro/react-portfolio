@@ -8,9 +8,9 @@ const ProblemSolved = (props) => {
       </div>
       <div className="rightColumn">
         <h4>What can the users do now, VS before</h4>
-        <p>{props.solvedP_1}</p>
+        <p>{props.solvedP1}</p>
         <h4>Life improvements</h4>
-        <p>{props.solvedP_2}</p>
+        <p>{props.solvedP2}</p>
       </div>
     </div>
   );

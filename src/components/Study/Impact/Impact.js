@@ -11,6 +11,9 @@ const Impact = (props) => {
         <p>{props.impactP1}</p>
         <h4>Kiteworks organization</h4>
         <p>{props.impactP2}</p>
+        <br></br>
+        <br></br>
+        <p>{props.impactP3}</p>
       </div>
     </div>
   );

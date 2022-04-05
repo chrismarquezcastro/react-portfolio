@@ -1,4 +1,4 @@
-export const slides = [
+export const videoSlides = [
   {
     id: 1,
     title: "Admin is prompted to verify a list of security settings.",

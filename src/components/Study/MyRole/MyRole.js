@@ -28,7 +28,7 @@ class MyRole extends Component {
             {this.props.facilitationP2}
           </p>
           <h4>Impact to the team</h4>
-          <p>{this.props.impactP1}</p>
+          <p>{this.props.teamImpactP1}</p>
         </div>
       </div>
     );

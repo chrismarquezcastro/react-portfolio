@@ -11,6 +11,9 @@ const Lessons = (props) => {
         <p>{props.lessonsP1}</p>
         <h4>As a team</h4>
         <p>{props.lessonsP2}</p>
+        <br></br>
+        <br></br>
+        <p>{props.lessonsP3}</p>
       </div>
     </div>
   );

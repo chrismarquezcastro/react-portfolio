@@ -41,17 +41,21 @@ export const caseSecuritySettings = [
       "Once the UX design is mostly defined I do a kick-off meeting with the Engineering team that is going to work on the feature to present and answer questions about the project.",
     teamImpactP1:
       "The new component in the admin interface now allows the admin to use another entry point and interaction model to present urgent workflows to the admin upon either update or sign in.",
-    solvedP_1:
+    solvedP1:
       "More than 80% of customers engaged with the interaction and completed the workflow, this caused minimal impact in the customer support organization, which eventually converted the remaining customers.",
-    solvedP_2:
+    solvedP2:
       "Less customers out there with potential exposures, and for those remaining now there is a record of someone manually confirming the setting in case of a dispute.",
     impactP1:
-      "Simplicity is the most compounded value that people will appreciate, even if they don’t know why or point exactly to an individual factor. The perfect use of form and function.",
+      "Customers reduced their risk exposure, and the admins have now a better understanding of the impact of sensitive settings in the system.",
     impactP2:
-      "The teams will be more efficient, able to spend more time on other aspect of the product design process, such as researching on edge cases.",
+      "If a customer gets impacted by an attack, indirectly impacts the vendor in this case Kiteworks, so a reduced risk on customers also reduces the risk for the Kiteworks organization.",
+    impactP3:
+      "The product organization also has now a new UI component to leverage for similar UX requirements, which has already happened.",
     lessonsP1:
-      "Components are the primary building block of modern user interfaces. They provide contained functionality, markup and style. Knowing how to leverage components enables superb UX all around.",
+      "I learned so many things in some many areas that I can’t quantify the lessons, the most important thing is the sum of all the little lessons, which revealed to me the ability to own a product and bring it from analysis, to design to working together with engineering teams to deliver within the programmed release.",
     lessonsP2:
-      "The team was able to fully leverage the design tools with the components and style library.",
+      "One important lesson was to work with the customer support earlier on the design process to take even more so into account the front lines of the organization in the case of confusion and blowback from the users. ",
+    lessonsP3:
+      "New components helps the team to deliver similar workflows for similar problems.",
   },
 ];
