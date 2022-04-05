@@ -3,6 +3,7 @@ import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Resume from "./components/Resume/Resume";
 import Study from "./components/Study/Study";
+import coverImageStudy1 from "../src/images/securitySettings.png";
 
 function App() {
   return (
@@ -20,7 +21,10 @@ function App() {
             </ul>
           </nav>
           <Routes>
-            <Route path="/studies" element={<Study />}></Route>
+            <Route
+              path="/studies"
+              element={<Study coverImage={coverImageStudy1} />}
+            ></Route>
             <Route path="/portfolio" element={<Resume />}></Route>
           </Routes>
         </BrowserRouter>

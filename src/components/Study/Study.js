@@ -26,6 +26,7 @@ class Study extends Component {
     return (
       <div>
         <StudyCover
+          coverImage={this.props.coverImage}
           h1Title={caseSecuritySettings[0].title}
           smallMetadata={caseSecuritySettings[0].metaData}
         />
