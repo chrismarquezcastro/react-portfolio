@@ -5,36 +5,36 @@ class ImageSlider extends Component {
   render() {
     return (
       <div>
-        <h3>{this.props.title}</h3>
+        <h3>{this.props.heading}</h3>
         <ImageSlide
-          image={this.props.imageS2P1}
-          title={this.props.titleS2P1}
-          highlight={this.props.highlightS2P1}
-          p1={this.props.p1S2P1}
+          image={this.props.imageP1}
+          title={this.props.titleP1}
+          highlight={this.props.highlightP1}
+          p1={this.props.p1P1}
         />
         <ImageSlide
-          image={this.props.imageS2P2}
-          title={this.props.titleS2P2}
-          highlight={this.props.highlightS2P2}
-          p1={this.props.p1S2P2}
+          image={this.props.imageP2}
+          title={this.props.titleP2}
+          highlight={this.props.highlightP2}
+          p1={this.props.p1P2}
         />
         <ImageSlide
-          image={this.props.imageS2P3}
-          title={this.props.titleS2P3}
-          highlight={this.props.highlightS2P3}
-          p1={this.props.p1S2P3}
+          image={this.props.imageP3}
+          title={this.props.titleP3}
+          highlight={this.props.highlightP3}
+          p1={this.props.p1P3}
         />
         <ImageSlide
-          image={this.props.imageS2P4}
-          title={this.props.titleS2P4}
-          highlight={this.props.highlightS2P4}
-          p1={this.props.p1S2P4}
+          image={this.props.imageP4}
+          title={this.props.titleP4}
+          highlight={this.props.highlightP4}
+          p1={this.props.p1P4}
         />
         <ImageSlide
-          image={this.props.imageS2P5}
-          title={this.props.titleS2P5}
-          highlight={this.props.highlightS2P5}
-          p1={this.props.p1S2P5}
+          image={this.props.imageP5}
+          title={this.props.titleP5}
+          highlight={this.props.highlightP5}
+          p1={this.props.p1P5}
         />
       </div>
     );

@@ -5,34 +5,34 @@ class VideoSlider extends Component {
   render() {
     return (
       <div>
-        <h3>{this.props.title}</h3>
+        <h3>{this.props.heading}</h3>
         <VideoSlide
-          video={this.props.videoS1P1}
-          title={this.props.titleS1P1}
+          video={this.props.videoP1}
+          title={this.props.titleP1}
           highlight={this.props.highlightS1P1}
-          p1={this.props.p1S1P1}
-          p2={this.props.p2S1P1}
+          p1={this.props.p1P1}
+          p2={this.props.p2P1}
         />
         <VideoSlide
-          video={this.props.videoS1P2}
-          title={this.props.titleS1P2}
-          highlight={this.props.highlightS1P2}
-          p1={this.props.p1S1P2}
-          p2={this.props.p2S1P2}
+          video={this.props.videoP2}
+          title={this.props.titleP2}
+          highlight={this.props.highlightP2}
+          p1={this.props.p1P2}
+          p2={this.props.p2P2}
         />
         <VideoSlide
-          video={this.props.videoS1P3}
-          title={this.props.titleS1P3}
-          highlight={this.props.highlightS1P3}
-          p1={this.props.p1S1P3}
-          p2={this.props.p2S1P3}
+          video={this.props.videoP3}
+          title={this.props.titleP3}
+          highlight={this.props.highlightP3}
+          p1={this.props.p1P3}
+          p2={this.props.p2P3}
         />
         <VideoSlide
-          video={this.props.videoS1P4}
-          title={this.props.titleS1P4}
-          highlight={this.props.highlightS1P4}
-          p1={this.props.p1S1P4}
-          p2={this.props.p2S1P4}
+          video={this.props.videoP4}
+          title={this.props.titleP4}
+          highlight={this.props.highlightP4}
+          p1={this.props.p1P4}
+          p2={this.props.p2P4}
         />
       </div>
     );

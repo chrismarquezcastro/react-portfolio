@@ -9,174 +9,132 @@ import VideoSlider from "../VideoSlider/VideoSlider";
 import ImageSlider from "../ImageSlider/ImageSlider";
 import ProblemSolved from "../ProblemSolved/ProblemSolved";
 import Impact from "../Impact/Impact";
-import Lessons from "./Lessons/Lessons";
+import Lessons from "../Lessons/Lessons";
+
+/* Images */
+import coverImageStudy from "./images/securitySettings.png";
+import imageP1 from "./images/S2_P1.png";
+import imageP2 from "./images/S2_P2.png";
+import imageP3 from "./images/S2_P3.png";
+import imageP4 from "./images/S2_P4.png";
+import imageP5 from "./images/S2_P5.png";
+
+/* Videos */
+import videoP1 from "./videos/p1 - s1.mp4";
+import videoP2 from "./videos/p1 - s2.mp4";
+import videoP3 from "./videos/p1 - s3.mp4";
+import videoP4 from "./videos/p1 - s4.mp4";
+
+/* Content */
+import {
+  cover,
+  designProblem,
+  myRole,
+  videoSlides,
+  solutionSolved,
+  imageSlides,
+  impact,
+  lessons,
+} from "./content";
 
 class Study extends Component {
   render() {
-    /* De-structure props for cleaner code. */
-    const {
-      coverImage,
-      h1Title,
-      smallMetadata,
-      problemsObservedP1,
-      problemsObservedP2,
-      hypothesisP1,
-      hypothesisP2,
-      hypothesisP3,
-      stakeholderRequestP1,
-      stakeholderRequestP2,
-      stakeholderRequestP3,
-      solveProblemP1,
-      solveProblemP2,
-      solveProblemP3,
-      solveProblemP4,
-      collaborationP1,
-      collaborationP2,
-      collaborationP3,
-      collaborationP4,
-      facilitationP1,
-      facilitationP2,
-      teamImpactP1,
-      headingS1P1,
-      videoS1P1,
-      titleS1P1,
-      highlightS1P1,
-      p1S1P1,
-      p2S1P1,
-      videoS1P2,
-      titleS1P2,
-      highlightS1P2,
-      p1S1P2,
-      p2S1P2,
-      videoS1P3,
-      titleS1P3,
-      highlightS1P3,
-      p1S1P3,
-      p2S1P3,
-      videoS1P4,
-      titleS1P4,
-      highlightS1P4,
-      p1S1P4,
-      p2S1P4,
-      solvedP1,
-      solvedP2,
-      imageS2P1,
-      titleS2P1,
-      highlightS2P1,
-      p1S2P1,
-      imageS2P2,
-      titleS2P2,
-      highlightS2P2,
-      p1S2P2,
-      imageS2P3,
-      titleS2P3,
-      highlightS2P3,
-      p1S2P3,
-      imageS2P4,
-      titleS2P4,
-      highlightS2P4,
-      p1S2P4,
-      imageS2P5,
-      titleS2P5,
-      highlightS2P5,
-      p1S2P5,
-      impactP1,
-      impactP2,
-      impactP3,
-      lessonsP1,
-      lessonsP2,
-      lessonsP3,
-    } = this.props;
-
     return (
       <div>
         <StudyCover
-          coverImage={coverImage}
-          h1Title={h1Title}
-          smallMetadata={smallMetadata}
+          coverImage={coverImageStudy}
+          h1Title={cover[0].title}
+          smallMetadata={cover[0].metaData}
         />
         <hr className="rounded"></hr>
         <DesignProblem
-          problemsObservedP1={problemsObservedP1}
-          problemsObservedP2={problemsObservedP2}
-          hypothesisP1={hypothesisP1}
-          hypothesisP2={hypothesisP2}
-          hypothesisP3={hypothesisP3}
-          stakeholderRequestP1={stakeholderRequestP1}
-          stakeholderRequestP2={stakeholderRequestP2}
-          stakeholderRequestP3={stakeholderRequestP3}
-          solveProblemP1={solveProblemP1}
-          solveProblemP2={solveProblemP2}
-          solveProblemP3={solveProblemP3}
-          solveProblemP4={solveProblemP4}
+          problemsObservedP1={designProblem[0].problemsObservedP1}
+          problemsObservedP2={designProblem[0].problemsObservedP2}
+          hypothesisP1={designProblem[0].hypothesisP1}
+          hypothesisP2={designProblem[0].hypothesisP2}
+          hypothesisP3={designProblem[0].hypothesisP3}
+          stakeholderRequestP1={designProblem[0].stakeholderRequestP1}
+          stakeholderRequestP2={designProblem[0].stakeholderRequestP2}
+          stakeholderRequestP3={designProblem[0].stakeholderRequestP3}
+          solveProblemP1={designProblem[0].solveProblemP1}
+          solveProblemP2={designProblem[0].solveProblemP2}
+          solveProblemP3={designProblem[0].solveProblemP3}
+          solveProblemP4={designProblem[0].solveProblemP4}
         />
         <hr className="rounded"></hr>
         <MyRole
-          collaborationP1={collaborationP1}
-          collaborationP2={collaborationP2}
-          collaborationP3={collaborationP3}
-          collaborationP4={collaborationP4}
-          facilitationP1={facilitationP1}
-          facilitationP2={facilitationP2}
-          teamImpactP1={teamImpactP1}
+          collaborationP1={myRole[0].collaborationP1}
+          collaborationP2={myRole[0].collaborationP2}
+          collaborationP3={myRole[0].collaborationP3}
+          collaborationP4={myRole[0].collaborationP4}
+          facilitationP1={myRole[0].facilitationP1}
+          facilitationP2={myRole[0].facilitationP2}
+          teamImpactP1={myRole[0].teamImpactP1}
         />
         <hr className="rounded"></hr>
         <VideoSlider
-          headingS1P1={headingS1P1}
-          videoS1P1={videoS1P1}
-          titleS1P1={titleS1P1}
-          highlightS1P1={highlightS1P1}
-          p1S1P1={p1S1P1}
-          p2S1P1={p2S1P1}
-          videoS1P2={videoS1P2}
-          titleS1P2={titleS1P2}
-          highlightS1P2={highlightS1P2}
-          p1S1P2={p1S1P2}
-          p2S1P2={p2S1P2}
-          videoS1P3={videoS1P3}
-          titleS1P3={titleS1P3}
-          highlightS1P3={highlightS1P3}
-          p1S1P3={p1S1P3}
-          p2S1P3={p2S1P3}
-          videoS1P4={videoS1P4}
-          titleS1P4={titleS1P4}
-          highlightS1P4={highlightS1P4}
-          p1S1P4={p1S1P4}
-          p2S1P4={p2S1P4}
+          heading={"Proposed Solution"}
+          videoP1={videoP1}
+          titleP1={videoSlides[0].title}
+          highlightS1P1={videoSlides[0].highlight}
+          p1P1={videoSlides[0].p1}
+          p2P1={videoSlides[0].p2}
+          videoP2={videoP2}
+          titleP2={videoSlides[1].title}
+          highlightP2={videoSlides[1].highlight}
+          p1P2={videoSlides[1].p1}
+          p2P2={videoSlides[1].p2}
+          videoP3={videoP3}
+          titleP3={videoSlides[2].title}
+          highlightP3={videoSlides[2].highlight}
+          p1P3={videoSlides[2].p1}
+          p2P3={videoSlides[2].p2}
+          videoP4={videoP4}
+          titleP4={videoSlides[3].title}
+          highlightP4={videoSlides[3].highlight}
+          p1P4={videoSlides[3].p1}
+          p2P4={videoSlides[3].p2}
         />
         <hr className="rounded"></hr>
-        <ProblemSolved solvedP1={solvedP1} solvedP2={solvedP2} />
+        <ProblemSolved
+          solvedP1={solutionSolved[0].p1}
+          solvedP2={solutionSolved[0].p2}
+        />
         <hr className="rounded"></hr>
         <ImageSlider
-          headingS2P1={"Challenges"}
-          imageS2P1={imageS2P1}
-          titleS2P1={titleS2P1}
-          highlightS2P1={highlightS2P1}
-          p1S2P1={p1S2P1}
-          imageS2P2={imageS2P2}
-          titleS2P2={titleS2P2}
-          highlightS2P2={highlightS2P2}
-          p1S2P2={p1S2P2}
-          imageS2P3={imageS2P3}
-          titleS2P3={titleS2P3}
-          highlightS2P3={highlightS2P3}
-          p1S2P3={p1S2P3}
-          imageS2P4={imageS2P4}
-          titleS2P4={titleS2P4}
-          highlightS2P4={highlightS2P4}
-          p1S2P4={p1S2P4}
-          imageS2P5={imageS2P5}
-          titleS2P5={titleS2P5}
-          highlightS2P5={highlightS2P5}
-          p1S2P5={p1S2P5}
+          heading={"Challenges"}
+          imageP1={imageP1}
+          titleP1={imageSlides[0].title}
+          highlightP1={imageSlides[0].highlight}
+          p1P1={imageSlides[0].p1}
+          imageP2={imageP2}
+          titleP2={imageSlides[1].title}
+          highlightP2={imageSlides[1].highlight}
+          p1P2={imageSlides[1].p1}
+          imageP3={imageP3}
+          titleP3={imageSlides[2].title}
+          highlightP3={imageSlides[2].highlight}
+          p1P3={imageSlides[2].p1}
+          imageP4={imageP4}
+          titleP4={imageSlides[3].title}
+          highlightP4={imageSlides[3].highlight}
+          p1P4={imageSlides[3].p1}
+          imageP5={imageP5}
+          titleP5={imageSlides[4].title}
+          highlightP5={imageSlides[4].highlight}
+          p1P5={imageSlides[4].p1}
         />
         <hr className="rounded"></hr>
-        <Impact impactP1={impactP1} impactP2={impactP2} impactP3={impactP3} />
+        <Impact
+          impactP1={impact[0].p1}
+          impactP2={impact[0].p2}
+          impactP3={impact[0].p3}
+        />
         <hr className="rounded"></hr>
         <Lessons
-          lessonsP1={lessonsP1}
-          lessonsP2={lessonsP2}
-          lessonsP3={lessonsP3}
+          lessonsP1={lessons[0].p1}
+          lessonsP2={lessons[0].p2}
+          lessonsP3={lessons[0].p3}
         />
       </div>
     );

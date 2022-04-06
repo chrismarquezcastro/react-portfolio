@@ -1,9 +1,13 @@
 import React from "react";
+import StudyCover from "../StudyCover/StudyCover";
+
+/* Content */
+import { cover } from "./content";
 
 const MultiAccountMobileStudy = () => {
   return (
     <div>
-      <h1>Hello!</h1>
+      <StudyCover h1Title={cover[0].title} />
     </div>
   );
 };
