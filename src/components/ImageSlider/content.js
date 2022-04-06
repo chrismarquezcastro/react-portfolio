@@ -25,7 +25,7 @@ export const imageSlides = [
     title: "Large number of iterations per component",
     highlight:
       "Usually when creating a new set of components, this involves more iterations than an improvement.",
-    p1: "What was extraordinary in this case is that the complexity of and sensitivity of each item was such that almost every word had to be reviewed multiple times.",
+    p1: "What was extraordinary in this case is the complexity and sensitivity of each item, such that almost every word had to be reviewed multiple times.",
   },
   {
     id: 5,

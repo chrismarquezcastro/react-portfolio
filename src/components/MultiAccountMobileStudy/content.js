@@ -1,8 +1,8 @@
 export const caseSecuritySettings = [
   {
     id: "1",
-    title: "Admin needs to update security settings",
-    metaData: "Kiteworks  |  Q2 – 2021  |  Palo Alto, California",
+    title: "Enable multiple accounts on Mobile",
+    metaData: "Kiteworks  |  2020 - Q1  |  Palo Alto, California",
     problemsObservedP1:
       "Kiteworks admins are in charge of enabling the business processes and reducing the risks to the system and the data. Some settings could be misused, opening the content and / or system to vulnerabilities that could create serious problems for the customer organization, as well as the Kiteworks organization.",
     problemsObservedP2:

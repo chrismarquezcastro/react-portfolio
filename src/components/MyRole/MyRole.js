@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../Study.css";
+import "../components.css";
 
 class MyRole extends Component {
   render() {

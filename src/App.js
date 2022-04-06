@@ -9,7 +9,7 @@ import MultiAccountMobileStudy from "./components/MultiAccountMobileStudy/MultiA
 
 /* Content */
 import { caseSecuritySettings } from "./components/SecuritySettingsStudy/content";
-import { videoSlides } from "./components/SecuritySettingsStudy/VideoSlider/content";
+import { videoSlides } from "./components/VideoSlider/content";
 import { imageSlides } from "./components/SecuritySettingsStudy/ImageSlider/content";
 
 /* Videos */

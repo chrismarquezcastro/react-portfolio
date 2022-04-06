@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../Study.css";
+import "../components.css";
 
 class DesignProblem extends Component {
   render() {
