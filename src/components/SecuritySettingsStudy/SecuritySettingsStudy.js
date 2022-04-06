@@ -1,19 +1,15 @@
 import React, { Component } from "react";
+import "./Study.css";
+
+/* Components */
 import DesignProblem from "./DesignProblem/DesignProblem";
-import { caseSecuritySettings } from "./content";
-import { imageSlides } from "./ImageSlider/content";
 import StudyCover from "./StudyCover/StudyCover";
 import MyRole from "./MyRole/MyRole";
-import "./Study.css";
 import VideoSlider from "./VideoSlider/VideoSlider";
 import ImageSlider from "./ImageSlider/ImageSlider";
 import ProblemSolved from "./ProblemSolved/ProblemSolved";
 import Impact from "./Impact/Impact";
 import Lessons from "./Lessons/Lessons";
-import imageS2P2 from "./ImageSlider/images/S2_P2.png";
-import imageS2P3 from "./ImageSlider/images/S2_P3.png";
-import imageS2P4 from "./ImageSlider/images/S2_P4.png";
-import imageS2P5 from "./ImageSlider/images/S2_P5.png";
 
 class Study extends Component {
   render() {
@@ -65,6 +61,31 @@ class Study extends Component {
       solvedP1,
       solvedP2,
       imageS2P1,
+      titleS2P1,
+      highlightS2P1,
+      p1S2P1,
+      imageS2P2,
+      titleS2P2,
+      highlightS2P2,
+      p1S2P2,
+      imageS2P3,
+      titleS2P3,
+      highlightS2P3,
+      p1S2P3,
+      imageS2P4,
+      titleS2P4,
+      highlightS2P4,
+      p1S2P4,
+      imageS2P5,
+      titleS2P5,
+      highlightS2P5,
+      p1S2P5,
+      impactP1,
+      impactP2,
+      impactP3,
+      lessonsP1,
+      lessonsP2,
+      lessonsP3,
     } = this.props;
 
     return (
@@ -129,37 +150,33 @@ class Study extends Component {
         <ImageSlider
           headingS2P1={"Challenges"}
           imageS2P1={imageS2P1}
-          titleS2P1={imageSlides[0].title}
-          highlightS2P1={imageSlides[0].highlight}
-          p1S2P1={imageSlides[0].p1}
+          titleS2P1={titleS2P1}
+          highlightS2P1={highlightS2P1}
+          p1S2P1={p1S2P1}
           imageS2P2={imageS2P2}
-          titleS2P2={imageSlides[1].title}
-          highlightS2P2={imageSlides[1].highlight}
-          p1S2P2={imageSlides[1].p1}
+          titleS2P2={titleS2P2}
+          highlightS2P2={highlightS2P2}
+          p1S2P2={p1S2P2}
           imageS2P3={imageS2P3}
-          titleS2P3={imageSlides[2].title}
-          highlightS2P3={imageSlides[2].highlight}
-          p1S2P3={imageSlides[2].p1}
+          titleS2P3={titleS2P3}
+          highlightS2P3={highlightS2P3}
+          p1S2P3={p1S2P3}
           imageS2P4={imageS2P4}
-          titleS2P4={imageSlides[3].title}
-          highlightS2P4={imageSlides[3].highlight}
-          p1S2P4={imageSlides[3].p1}
+          titleS2P4={titleS2P4}
+          highlightS2P4={highlightS2P4}
+          p1S2P4={p1S2P4}
           imageS2P5={imageS2P5}
-          titleS2P5={imageSlides[4].title}
-          highlightS2P5={imageSlides[4].highlight}
-          p1S2P5={imageSlides[4].p1}
+          titleS2P5={titleS2P5}
+          highlightS2P5={highlightS2P5}
+          p1S2P5={p1S2P5}
         />
         <hr className="rounded"></hr>
-        <Impact
-          impactP1={caseSecuritySettings[0].impactP1}
-          impactP2={caseSecuritySettings[0].impactP2}
-          impactP3={caseSecuritySettings[0].impactP3}
-        />
+        <Impact impactP1={impactP1} impactP2={impactP2} impactP3={impactP3} />
         <hr className="rounded"></hr>
         <Lessons
-          lessonsP1={caseSecuritySettings[0].lessonsP1}
-          lessonsP2={caseSecuritySettings[0].lessonsP2}
-          lessonsP3={caseSecuritySettings[0].lessonsP3}
+          lessonsP1={lessonsP1}
+          lessonsP2={lessonsP2}
+          lessonsP3={lessonsP3}
         />
       </div>
     );

@@ -4,11 +4,13 @@ import "./App.css";
 
 /* Components */
 import Resume from "./components/Resume/Resume";
-import Study from "./components/Study/Study";
+import SecuritySettingsStudy from "./components/SecuritySettingsStudy/SecuritySettingsStudy";
+import MultiAccountMobileStudy from "./components/MultiAccountMobileStudy/MultiAccountMobileStudy";
 
 /* Content */
-import { caseSecuritySettings } from "./components/Study/content";
-import { videoSlides } from "./components/Study/VideoSlider/content";
+import { caseSecuritySettings } from "./components/SecuritySettingsStudy/content";
+import { videoSlides } from "./components/SecuritySettingsStudy/VideoSlider/content";
+import { imageSlides } from "./components/SecuritySettingsStudy/ImageSlider/content";
 
 /* Videos */
 import videoS1P1 from "../src/videos/p1 - s1.mp4";
@@ -22,6 +24,7 @@ import imageS2P1 from "../src/images/S2_P1.png";
 import imageS2P2 from "../src/images/S2_P2.png";
 import imageS2P3 from "../src/images/S2_P3.png";
 import imageS2P4 from "../src/images/S2_P4.png";
+import imageS2P5 from "../src/images/S2_P5.png";
 
 function App() {
   return (
@@ -31,18 +34,22 @@ function App() {
           <nav>
             <ul>
               <li>
-                <Link to="/portfolio">Chris Márquez</Link>
+                <Link to="/">Chris Márquez</Link>
               </li>
               <li>
-                <Link to="/studies">UX Case Study 1</Link>
+                <Link to="/study1">UX Case Study 1</Link>
+              </li>
+              <li>
+                <Link to="/study2">UX Case Study 2</Link>
               </li>
             </ul>
           </nav>
           <Routes>
+            {/* Admin settings Case Study */}
             <Route
-              path="/studies"
+              path="/study1"
               element={
-                <Study
+                <SecuritySettingsStudy
                   coverImage={coverImageStudy1}
                   h1Title={caseSecuritySettings[0].title}
                   smallMetadata={caseSecuritySettings[0].metaData}
@@ -99,13 +106,38 @@ function App() {
                   solvedP1={caseSecuritySettings[0].solvedP1}
                   solvedP2={caseSecuritySettings[0].solvedP2}
                   imageS2P1={imageS2P1}
+                  titleS2P1={imageSlides[0].title}
+                  highlightS2P1={imageSlides[0].highlight}
+                  p1S2P1={imageSlides[0].p1}
                   imageS2P2={imageS2P2}
+                  titleS2P2={imageSlides[1].title}
+                  highlightS2P2={imageSlides[1].highlight}
+                  p1S2P2={imageSlides[1].p1}
                   imageS2P3={imageS2P3}
+                  titleS2P3={imageSlides[2].title}
+                  highlightS2P3={imageSlides[2].highlight}
+                  p1S2P3={imageSlides[2].p1}
                   imageS2P4={imageS2P4}
+                  titleS2P4={imageSlides[3].title}
+                  highlightS2P4={imageSlides[3].highlight}
+                  p1S2P4={imageSlides[3].p1}
+                  imageS2P5={imageS2P5}
+                  titleS2P5={imageSlides[4].title}
+                  highlightS2P5={imageSlides[4].highlight}
+                  p1S2P5={imageSlides[4].p1}
+                  impactP1={caseSecuritySettings[0].impactP1}
+                  impactP2={caseSecuritySettings[0].impactP2}
+                  impactP3={caseSecuritySettings[0].impactP3}
+                  lessonsP1={caseSecuritySettings[0].lessonsP1}
+                  lessonsP2={caseSecuritySettings[0].lessonsP2}
+                  lessonsP3={caseSecuritySettings[0].lessonsP3}
                 />
               }
             ></Route>
-            <Route path="/portfolio" element={<Resume />}></Route>
+            <Route path="/study2" element={<MultiAccountMobileStudy />} />
+
+            {/* Mobile Case Study */}
+            <Route path="/" element={<Resume />}></Route>
           </Routes>
         </BrowserRouter>
       </div>

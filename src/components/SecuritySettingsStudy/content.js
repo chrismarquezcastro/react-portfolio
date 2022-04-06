@@ -58,4 +58,9 @@ export const caseSecuritySettings = [
     lessonsP3:
       "New components helps the team to deliver similar workflows for similar problems.",
   },
+  {
+    id: "2",
+    title: "Enable capture from camera across mobile apps",
+    metaData: "Kiteworks  |  2019 Q4  |  Palo Alto, California",
+  },
 ];
