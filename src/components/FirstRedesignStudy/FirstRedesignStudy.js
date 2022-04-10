@@ -1,10 +1,9 @@
 import React from "react";
-import StudyCover from "../StudyCover/StudyCover";
 
 /* Components */
-import DesignProblem from "../DesignProblem/DesignProblem";
-import MyRole from "../MyRole/MyRole";
-import VideoSlider from "../VideoSlider/VideoSlider";
+import DesignProblem from "./DesignProblem/DesignProblem";
+import MyRole from "./MyRole/MyRole";
+import StudyCover from "./StudyCover/StudyCover";
 
 /* Content */
 import { cover, designProblem, myRole } from "./content";
@@ -12,7 +11,7 @@ import { cover, designProblem, myRole } from "./content";
 /* Images  */
 import kwV1ActionsMenu from "./images/kw v1 actions menu.png";
 
-const MultiAccountMobileStudy = () => {
+const FirstRedesignStudy = () => {
   return (
     <div>
       <StudyCover h1Title={cover[0].title} smallMetadata={cover[0].metaData} />
@@ -44,9 +43,8 @@ const MultiAccountMobileStudy = () => {
         teamImpactP1={myRole[0].teamImpactP1}
       />
       <hr className="rounded"></hr>
-      <VideoSlider />
     </div>
   );
 };
 
-export default MultiAccountMobileStudy;
+export default FirstRedesignStudy;

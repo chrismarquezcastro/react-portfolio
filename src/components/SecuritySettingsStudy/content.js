@@ -83,7 +83,7 @@ export const videoSlides = [
   {
     id: 4,
     title:
-      "Admin can navigate to each setting independently and make the changes there, instead of the initial the modal.",
+      "Admin can navigate to each setting independently and make the changes there, instead of the initial modal.",
     highlight:
       "The idea was to present the behavior at the lowest level possible, applying modularity such that was easly scalable.",
     p1: "Admins will see a button on the nav bar with a count of the number of settings to review and from there, access the modal.",
