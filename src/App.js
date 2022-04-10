@@ -5,7 +5,7 @@ import "./App.css";
 /* Components */
 import Resume from "./components/Resume/Resume";
 import SecuritySettingsStudy from "./components/SecuritySettingsStudy/SecuritySettingsStudy";
-import MultiAccountMobileStudy from "./components/MultiAccountMobileStudy/MultiAccountMobileStudy";
+import FirstRedesign from "./components/FirstRedesign/FirstRedesign";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
           </nav>
           <Routes>
             <Route path="/study1" element={<SecuritySettingsStudy />}></Route>
-            <Route path="/study2" element={<MultiAccountMobileStudy />} />
+            <Route path="/study2" element={<FirstRedesign />} />
 
             {/* Mobile Case Study */}
             <Route path="/portfolio" element={<Resume />}></Route>

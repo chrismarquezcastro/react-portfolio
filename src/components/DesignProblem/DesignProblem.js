@@ -13,6 +13,9 @@ class DesignProblem extends Component {
             <br></br>
             <br></br>
             {this.props.problemsObservedP2}
+            <br></br>
+            <br></br>
+            {this.props.problemsObservedP3}
           </p>
           <h4>Hypothesis</h4>
           <p>
