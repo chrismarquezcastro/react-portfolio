@@ -10,11 +10,11 @@ class DesignProblem extends Component {
           <h4>Problems observed</h4>
           <p>
             {this.props.problemsObservedP1}
-            <img alt="Actions Menu" src={this.props.kwV1ActionsMenu} />
+            <img alt="Actions Menu Phone" src={this.props.V1ActionsPhone} />
             {this.props.problemsObservedP2}
-            <br></br>
-            <br></br>
+            <img alt="Actions Menu Tablet" src={this.props.V1ActionsTablet} />
             {this.props.problemsObservedP3}
+            <img alt="Dashboard Tablet" src={this.props.V1DashboardTablet} />
           </p>
           <h4>Hypothesis</h4>
           <p>

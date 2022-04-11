@@ -9,7 +9,9 @@ import StudyCover from "./StudyCover/StudyCover";
 import { cover, designProblem, myRole } from "./content";
 
 /* Images  */
-import kwV1ActionsMenu from "./images/kw v1 actions menu.png";
+import V1ActionsTablet from "./images/v1_actions_tablet.png";
+import V1DashboardTablet from "./images/V1_dashboard_tablet.png";
+import V1ActionsPhone from "./images/v1_movetray_actions_phone.png";
 
 const FirstRedesignStudy = () => {
   return (
@@ -30,7 +32,9 @@ const FirstRedesignStudy = () => {
         solveProblemP2={designProblem[0].solveProblemP2}
         solveProblemP3={designProblem[0].solveProblemP3}
         solveProblemP4={designProblem[0].solveProblemP4}
-        kwV1ActionsMenu={kwV1ActionsMenu}
+        V1ActionsTablet={V1ActionsTablet}
+        V1DashboardTablet={V1DashboardTablet}
+        V1ActionsPhone={V1ActionsPhone}
       />
       <hr className="rounded"></hr>
       <MyRole
