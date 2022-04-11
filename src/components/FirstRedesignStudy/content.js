@@ -9,7 +9,7 @@ export const cover = [
 export const designProblem = [
   {
     problemsObservedP1:
-      "Navigation wasn’t intuitive and the information architecture wasn’t clear.",
+      "The navigation across the application wasn’t intuitive. For example the main navigation was permanently available in the tablet, but on phones the user needed to navigate all the way up in the tree to get to the menu.",
     problemsObservedP2:
       "Look and feel was too far from the mental models and interactions used by the hosting systems.",
     problemsObservedP3:
@@ -53,5 +53,42 @@ export const myRole = [
       "The Engineering teams and I identified the best approach to design and develop the necessary components, re-using as much as possible from each native library.",
     teamImpactP1:
       "The new design enabled new workflows like the camera view that will go on to be used more widely in future releases.",
+  },
+];
+
+export const proposedSolution = [
+  {
+    title:
+      "Use the navigation patterns widely adopted on the native platforms.",
+    highlight:
+      "The bottom navigation as well as the overlay menu were common patterns in the iOS and Android UI libraries.",
+    p1: "For the initial phase the design for tablets was very similar to reduce the complications and hopefuly have a single code base for most components regarless of the devide.",
+  },
+  {
+    title: "Optimize the navigation every step of the way.",
+    highlight:
+      "Make the UI so simple that it feels like there is nothing between the user and the content.",
+    p1: "The UI should only show when is needed, or at least that's how it should feel like for the end-users, from biometric sign in to seamless gestures.",
+  },
+  {
+    title:
+      "Redesign every workflow and prioritize the most important use cases.",
+    highlight:
+      "The email view now includes a badge to show the number of unread messages.",
+    p1: "The look and feel should be similar to other comercial apps the do the same thing, to leaverage the knowledge most people already have from using these.",
+  },
+  {
+    title:
+      "Take photos from the app and the content doesn't get saved to the device.",
+    highlight:
+      "The viewer of files was simplified to show and hide the controls for the convenience of the user.",
+    p1: "End to end designer means to go into every situation with a critical point of view to identify the right problems and solve them.",
+  },
+  {
+    title:
+      "The new camera mode was front and center, readily available for the user's thumbs.",
+    highlight:
+      "The goal is to add more easy ways to add content into the kiteworks platform.",
+    p1: "Every new piece of content added to the platform represents an investment from users to come back to platform in the near future.",
   },
 ];

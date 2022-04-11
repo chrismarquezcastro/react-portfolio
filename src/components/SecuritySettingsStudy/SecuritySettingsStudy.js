@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import "../components.css";
 
 /* Components */
-import DesignProblem from "./DesignProblem/DesignProblem";
-import StudyCover from "./StudyCover/StudyCover";
-import MyRole from "./MyRole/MyRole";
-import VideoSlider from "./VideoSlider/VideoSlider";
-import ImageSlider from "./ImageSlider/ImageSlider";
-import ProblemSolved from "./ProblemSolved/ProblemSolved";
-import Impact from "./Impact/Impact";
-import Lessons from "./Lessons/Lessons";
+import DesignProblem from "./components/DesignProblem/DesignProblem";
+import StudyCover from "./components/StudyCover/StudyCover";
+import MyRole from "./components/MyRole/MyRole";
+import VideoSlider from "./components/VideoSlider/VideoSlider";
+import ImageSlider from "./components/ImageSlider/ImageSlider";
+import ProblemSolved from "./components/ProblemSolved/ProblemSolved";
+import Impact from "./components/Impact/Impact";
+import Lessons from "./components/Lessons/Lessons";
 
 /* Images */
 import coverImageStudy from "./images/securitySettings.png";
