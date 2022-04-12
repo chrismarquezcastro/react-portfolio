@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.520226ac.chunk.css",
-    "main.js": "/portfolio/static/js/main.0c4af87a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0c4af87a.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.0536ad60.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0536ad60.js.map",
+    "main.css": "/portfolio/static/css/main.014fde39.chunk.css",
+    "main.js": "/portfolio/static/js/main.5468347d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5468347d.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.b0bc9e10.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b0bc9e10.js.map",
     "static/js/2.9273062c.chunk.js": "/portfolio/static/js/2.9273062c.chunk.js",
     "static/js/2.9273062c.chunk.js.map": "/portfolio/static/js/2.9273062c.chunk.js.map",
-    "static/js/3.63947adb.chunk.js": "/portfolio/static/js/3.63947adb.chunk.js",
-    "static/js/3.63947adb.chunk.js.map": "/portfolio/static/js/3.63947adb.chunk.js.map",
+    "static/js/3.6b4b06c4.chunk.js": "/portfolio/static/js/3.6b4b06c4.chunk.js",
+    "static/js/3.6b4b06c4.chunk.js.map": "/portfolio/static/js/3.6b4b06c4.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.520226ac.chunk.css.map": "/portfolio/static/css/main.520226ac.chunk.css.map",
+    "static/css/main.014fde39.chunk.css.map": "/portfolio/static/css/main.014fde39.chunk.css.map",
     "static/js/2.9273062c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9273062c.chunk.js.LICENSE.txt",
     "static/media/S2_P1.b59f5093.png": "/portfolio/static/media/S2_P1.b59f5093.png",
     "static/media/S2_P2.cd9024f6.png": "/portfolio/static/media/S2_P2.cd9024f6.png",
@@ -18,6 +18,9 @@
     "static/media/S2_P4.b23122ab.png": "/portfolio/static/media/S2_P4.b23122ab.png",
     "static/media/S2_P5.290a5289.png": "/portfolio/static/media/S2_P5.290a5289.png",
     "static/media/V1_dashboard_tablet.235b1f69.png": "/portfolio/static/media/V1_dashboard_tablet.235b1f69.png",
+    "static/media/challenge_1.4661019b.png": "/portfolio/static/media/challenge_1.4661019b.png",
+    "static/media/challenge_2.e094ee86.png": "/portfolio/static/media/challenge_2.e094ee86.png",
+    "static/media/challenge_3.6a9e46ec.png": "/portfolio/static/media/challenge_3.6a9e46ec.png",
     "static/media/header.5dbbc867.png": "/portfolio/static/media/header.5dbbc867.png",
     "static/media/p1 - s1.31eaa006.mp4": "/portfolio/static/media/p1 - s1.31eaa006.mp4",
     "static/media/p1 - s2.64ba4d4e.mp4": "/portfolio/static/media/p1 - s2.64ba4d4e.mp4",
@@ -33,9 +36,9 @@
     "static/media/v2_viewer_camera.4538343a.png": "/portfolio/static/media/v2_viewer_camera.4538343a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0536ad60.js",
+    "static/js/runtime-main.b0bc9e10.js",
     "static/js/2.9273062c.chunk.js",
-    "static/css/main.520226ac.chunk.css",
-    "static/js/main.0c4af87a.chunk.js"
+    "static/css/main.014fde39.chunk.css",
+    "static/js/main.5468347d.chunk.js"
   ]
 }
