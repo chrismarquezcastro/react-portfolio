@@ -92,3 +92,33 @@ export const proposedSolution = [
     p1: "Every new piece of content added to the platform represents an investment from users to come back to platform in the near future.",
   },
 ];
+
+export const problemSolved = [
+  {
+    usersDoNowP1:
+      "End-users can now levearege the design patterns they've learned over time using other mobile apps.",
+    lifeImprovementsP1:
+      "When the user needs to use the mobile app, it's reliable and easy to use. Plus, now there are a few other workflows available such as the camera mode.",
+  },
+];
+
+export const challenges = [
+  {
+    title: "There was turmoil due to the replacement of most of the C siute.",
+    highlight:
+      "I saw the crisis as an opportunity to propose a new way for the UX design philosophy.",
+    p1: "The main change that needed to get across was from a single fixed design across all clients, to the simplicity and leaverage of the native platforms.",
+  },
+  {
+    title: "The design team from then on was integrated by the PM team.",
+    highlight:
+      "Being close to the PM team can help to gain insights on the business problem from the ground up.",
+    p1: "The amount of information can also be challenging due to a large number of projects, problems, and overall queries that the PM team receives on a daily basis.",
+  },
+  {
+    title: "The ratio of PM and Engineers to designers was overwhelming",
+    highlight:
+      "Simplicity is the best friend when trying to work with multiple teams building in different platforms.",
+    p1: "Communication and a good partnership with the engineering team help to identify the components that can be used out of the box, and those that need modifications to fit within the style.",
+  },
+];
