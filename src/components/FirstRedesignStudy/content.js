@@ -118,7 +118,24 @@ export const challenges = [
   {
     title: "The ratio of PM and Engineers to designers was overwhelming",
     highlight:
-      "Simplicity is the best friend when trying to work with multiple teams building in different platforms.",
+      "Simplicity is the best friend when trying to work with multiple teams building in different platforms at the same time.",
     p1: "Communication and a good partnership with the engineering team help to identify the components that can be used out of the box, and those that need modifications to fit within the style.",
+  },
+];
+
+export const impact = [
+  {
+    customers:
+      "A better, simpler, more performant product will always be good for the customer.",
+    kiteworks:
+      "Happier customers are more engaged and less likely to drop the product from the vendor list.",
+  },
+];
+
+export const lessons = [
+  {
+    personal:
+      "Times of crisis are not as bad as they seem, and are actually times of opportunity.",
+    team: "A new team was born from here on, The PM-UX with 80% of PM and only 20% of Designers. It kind of worked.",
   },
 ];

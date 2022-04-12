@@ -7,6 +7,8 @@ import StudyCover from "./components/StudyCover/StudyCover";
 import ProposedSolution from "./components/ProposedSolution/ProposedSolution";
 import ProblemSolved from "./components/ProblemSolved/ProblemSolved";
 import Challenges from "./components/Challenges/Challenges";
+import Impact from "./components/Impact/Impact";
+import Lessons from "./components/Lessons/Lessons";
 
 /* Content */
 import {
@@ -16,6 +18,8 @@ import {
   proposedSolution,
   problemSolved,
   challenges,
+  impact,
+  lessons,
 } from "./content";
 
 /* Images  */
@@ -108,6 +112,9 @@ const FirstRedesignStudy = () => {
         s3P1={challenges[2].p1}
       />
       <hr className="rounded"></hr>
+      <Impact impactP1={impact[0].customers} impactP2={impact[0].kiteworks} />
+      <hr className="rounded"></hr>
+      <Lessons lessonsP1={lessons[0].personal} lessonsP2={lessons[0].team} />
     </div>
   );
 };
