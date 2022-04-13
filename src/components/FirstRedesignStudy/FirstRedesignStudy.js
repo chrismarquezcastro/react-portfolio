@@ -36,6 +36,8 @@ import s2Challenge from "./images/challenge_2.png";
 import s3Challenge from "./images/challenge_3.png";
 import coverImage from "./images/cover.png";
 
+import "./components/components.css";
+
 const FirstRedesignStudy = () => {
   return (
     <div>
