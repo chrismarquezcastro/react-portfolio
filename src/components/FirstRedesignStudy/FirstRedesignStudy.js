@@ -34,11 +34,16 @@ import V2HomeFiles from "./images/v2_home_files.png";
 import s1Challenge from "./images/challenge_1.png";
 import s2Challenge from "./images/challenge_2.png";
 import s3Challenge from "./images/challenge_3.png";
+import coverImage from "./images/cover.png";
 
 const FirstRedesignStudy = () => {
   return (
     <div>
-      <StudyCover h1Title={cover[0].title} smallMetadata={cover[0].metaData} />
+      <StudyCover
+        h1Title={cover[0].title}
+        smallMetadata={cover[0].metaData}
+        coverImage={coverImage}
+      />
       <hr className="rounded"></hr>
       <DesignProblem
         problemsObservedP1={designProblem[0].problemsObservedP1}
