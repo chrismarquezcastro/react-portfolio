@@ -33,7 +33,7 @@ export const designProblem = [
     solveProblemP3:
       "The interview also dived into the expectations for the application, in terms of business value to Kiteworks as well as its customers.",
     solveProblemP4:
-      "Prototype and validate different ideas for navigation, key areas of the product and well as new functionallity.",
+      "Prototype and validate different ideas for navigation, key areas of the product as well as new functionallity.",
   },
 ];
 
